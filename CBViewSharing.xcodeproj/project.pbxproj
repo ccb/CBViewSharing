@@ -7,15 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		435D2A8B19199C4E00D2C331 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 435D2A8A19199C4E00D2C331 /* UIKit.framework */; };
 		438C8CAB191998F800056DBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 438C8CAA191998F800056DBB /* Foundation.framework */; };
-		438C8CB0191998F800056DBB /* CBViewSharing.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 438C8CAF191998F800056DBB /* CBViewSharing.h */; };
-		438C8CB2191998F800056DBB /* CBViewSharing.m in Sources */ = {isa = PBXBuildFile; fileRef = 438C8CB1191998F800056DBB /* CBViewSharing.m */; };
 		438C8CB9191998F900056DBB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 438C8CB8191998F900056DBB /* XCTest.framework */; };
 		438C8CBA191998F900056DBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 438C8CAA191998F800056DBB /* Foundation.framework */; };
 		438C8CBC191998F900056DBB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 438C8CBB191998F900056DBB /* UIKit.framework */; };
 		438C8CBF191998F900056DBB /* libCBViewSharing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 438C8CA7191998F800056DBB /* libCBViewSharing.a */; };
 		438C8CC5191998F900056DBB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 438C8CC3191998F900056DBB /* InfoPlist.strings */; };
 		438C8CC7191998F900056DBB /* CBViewSharingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 438C8CC6191998F900056DBB /* CBViewSharingTests.m */; };
+		438C8CDE1919994B00056DBB /* CBServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 438C8CD41919994B00056DBB /* CBServer.m */; };
+		438C8CDF1919994B00056DBB /* CBServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 438C8CD41919994B00056DBB /* CBServer.m */; };
+		438C8CE01919994B00056DBB /* UIView+ImageRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 438C8CD71919994B00056DBB /* UIView+ImageRepresentation.m */; };
+		438C8CE11919994B00056DBB /* UIView+ImageRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 438C8CD71919994B00056DBB /* UIView+ImageRepresentation.m */; };
+		438C8CE21919994B00056DBB /* CBViewSharing.m in Sources */ = {isa = PBXBuildFile; fileRef = 438C8CD81919994B00056DBB /* CBViewSharing.m */; };
+		438C8CE31919994B00056DBB /* CBViewSharing.m in Sources */ = {isa = PBXBuildFile; fileRef = 438C8CD81919994B00056DBB /* CBViewSharing.m */; };
+		438C8CE41919994B00056DBB /* Socket.m in Sources */ = {isa = PBXBuildFile; fileRef = 438C8CDA1919994B00056DBB /* Socket.m */; };
+		438C8CE51919994B00056DBB /* Socket.m in Sources */ = {isa = PBXBuildFile; fileRef = 438C8CDA1919994B00056DBB /* Socket.m */; };
+		438C8CE61919994B00056DBB /* CBScreenCapturer.m in Sources */ = {isa = PBXBuildFile; fileRef = 438C8CDB1919994B00056DBB /* CBScreenCapturer.m */; };
+		438C8CE71919994B00056DBB /* CBScreenCapturer.m in Sources */ = {isa = PBXBuildFile; fileRef = 438C8CDB1919994B00056DBB /* CBScreenCapturer.m */; };
+		438C8CE81919994B00056DBB /* CBViewSharingSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 438C8CDC1919994B00056DBB /* CBViewSharingSession.m */; };
+		438C8CE91919994B00056DBB /* CBViewSharingSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 438C8CDC1919994B00056DBB /* CBViewSharingSession.m */; };
+		438C8CEA1919994B00056DBB /* CBInputReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 438C8CDD1919994B00056DBB /* CBInputReceiver.m */; };
+		438C8CEB1919994B00056DBB /* CBInputReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 438C8CDD1919994B00056DBB /* CBInputReceiver.m */; };
+		8667E0AE2BAC409BA94E2BBA /* libPods-CBViewSharing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 293F63A2482F404686BCF95D /* libPods-CBViewSharing.a */; };
+		EBF19DFF699B4CC6BC83B23B /* libPods-CBViewSharingTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D8A7856682046438F8A4D01 /* libPods-CBViewSharingTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,24 +50,42 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				438C8CB0191998F800056DBB /* CBViewSharing.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		07FA1E834609437A8A55F9B0 /* Pods-CBViewSharingTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CBViewSharingTests.xcconfig"; path = "Pods/Pods-CBViewSharingTests.xcconfig"; sourceTree = "<group>"; };
+		293F63A2482F404686BCF95D /* libPods-CBViewSharing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CBViewSharing.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35A5B8712EE3400CA7565BB8 /* Pods-CBViewSharing.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CBViewSharing.xcconfig"; path = "Pods/Pods-CBViewSharing.xcconfig"; sourceTree = "<group>"; };
+		3D8A7856682046438F8A4D01 /* libPods-CBViewSharingTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CBViewSharingTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		435D2A8A19199C4E00D2C331 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		438C8CA7191998F800056DBB /* libCBViewSharing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCBViewSharing.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		438C8CAA191998F800056DBB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		438C8CAE191998F800056DBB /* CBViewSharing-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CBViewSharing-Prefix.pch"; sourceTree = "<group>"; };
-		438C8CAF191998F800056DBB /* CBViewSharing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBViewSharing.h; sourceTree = "<group>"; };
-		438C8CB1191998F800056DBB /* CBViewSharing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBViewSharing.m; sourceTree = "<group>"; };
 		438C8CB7191998F900056DBB /* CBViewSharingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CBViewSharingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		438C8CB8191998F900056DBB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		438C8CBB191998F900056DBB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		438C8CC2191998F900056DBB /* CBViewSharingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CBViewSharingTests-Info.plist"; sourceTree = "<group>"; };
 		438C8CC4191998F900056DBB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		438C8CC6191998F900056DBB /* CBViewSharingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBViewSharingTests.m; sourceTree = "<group>"; };
+		438C8CD01919994B00056DBB /* CBInputReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBInputReceiver.h; sourceTree = "<group>"; };
+		438C8CD11919994B00056DBB /* CBScreenCapturer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBScreenCapturer.h; sourceTree = "<group>"; };
+		438C8CD21919994B00056DBB /* CBViewSharing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBViewSharing.h; sourceTree = "<group>"; };
+		438C8CD31919994B00056DBB /* CBViewSharingSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBViewSharingSession.h; sourceTree = "<group>"; };
+		438C8CD41919994B00056DBB /* CBServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBServer.m; sourceTree = "<group>"; };
+		438C8CD51919994B00056DBB /* CBServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBServer.h; sourceTree = "<group>"; };
+		438C8CD61919994B00056DBB /* CBViewSharingSession_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBViewSharingSession_Private.h; sourceTree = "<group>"; };
+		438C8CD71919994B00056DBB /* UIView+ImageRepresentation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ImageRepresentation.m"; sourceTree = "<group>"; };
+		438C8CD81919994B00056DBB /* CBViewSharing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBViewSharing.m; sourceTree = "<group>"; };
+		438C8CD91919994B00056DBB /* Socket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Socket.h; sourceTree = "<group>"; };
+		438C8CDA1919994B00056DBB /* Socket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Socket.m; sourceTree = "<group>"; };
+		438C8CDB1919994B00056DBB /* CBScreenCapturer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBScreenCapturer.m; sourceTree = "<group>"; };
+		438C8CDC1919994B00056DBB /* CBViewSharingSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBViewSharingSession.m; sourceTree = "<group>"; };
+		438C8CDD1919994B00056DBB /* CBInputReceiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBInputReceiver.m; sourceTree = "<group>"; };
+		438C8CEC191999D300056DBB /* UIView+ImageRepresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ImageRepresentation.h"; sourceTree = "<group>"; };
+		438C8CED19199A0000056DBB /* CBDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBDefaults.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +93,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				435D2A8B19199C4E00D2C331 /* UIKit.framework in Frameworks */,
 				438C8CAB191998F800056DBB /* Foundation.framework in Frameworks */,
+				8667E0AE2BAC409BA94E2BBA /* libPods-CBViewSharing.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +107,7 @@
 				438C8CB9191998F900056DBB /* XCTest.framework in Frameworks */,
 				438C8CBC191998F900056DBB /* UIKit.framework in Frameworks */,
 				438C8CBA191998F900056DBB /* Foundation.framework in Frameworks */,
+				EBF19DFF699B4CC6BC83B23B /* libPods-CBViewSharingTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +121,8 @@
 				438C8CC0191998F900056DBB /* CBViewSharingTests */,
 				438C8CA9191998F800056DBB /* Frameworks */,
 				438C8CA8191998F800056DBB /* Products */,
+				35A5B8712EE3400CA7565BB8 /* Pods-CBViewSharing.xcconfig */,
+				07FA1E834609437A8A55F9B0 /* Pods-CBViewSharingTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,9 +138,12 @@
 		438C8CA9191998F800056DBB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				435D2A8A19199C4E00D2C331 /* UIKit.framework */,
 				438C8CAA191998F800056DBB /* Foundation.framework */,
 				438C8CB8191998F900056DBB /* XCTest.framework */,
 				438C8CBB191998F900056DBB /* UIKit.framework */,
+				293F63A2482F404686BCF95D /* libPods-CBViewSharing.a */,
+				3D8A7856682046438F8A4D01 /* libPods-CBViewSharingTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -110,8 +151,22 @@
 		438C8CAC191998F800056DBB /* CBViewSharing */ = {
 			isa = PBXGroup;
 			children = (
-				438C8CAF191998F800056DBB /* CBViewSharing.h */,
-				438C8CB1191998F800056DBB /* CBViewSharing.m */,
+				438C8CED19199A0000056DBB /* CBDefaults.h */,
+				438C8CEC191999D300056DBB /* UIView+ImageRepresentation.h */,
+				438C8CD01919994B00056DBB /* CBInputReceiver.h */,
+				438C8CD11919994B00056DBB /* CBScreenCapturer.h */,
+				438C8CD21919994B00056DBB /* CBViewSharing.h */,
+				438C8CD31919994B00056DBB /* CBViewSharingSession.h */,
+				438C8CD41919994B00056DBB /* CBServer.m */,
+				438C8CD51919994B00056DBB /* CBServer.h */,
+				438C8CD61919994B00056DBB /* CBViewSharingSession_Private.h */,
+				438C8CD71919994B00056DBB /* UIView+ImageRepresentation.m */,
+				438C8CD81919994B00056DBB /* CBViewSharing.m */,
+				438C8CD91919994B00056DBB /* Socket.h */,
+				438C8CDA1919994B00056DBB /* Socket.m */,
+				438C8CDB1919994B00056DBB /* CBScreenCapturer.m */,
+				438C8CDC1919994B00056DBB /* CBViewSharingSession.m */,
+				438C8CDD1919994B00056DBB /* CBInputReceiver.m */,
 				438C8CAD191998F800056DBB /* Supporting Files */,
 			);
 			path = CBViewSharing;
@@ -150,9 +205,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 438C8CCA191998F900056DBB /* Build configuration list for PBXNativeTarget "CBViewSharing" */;
 			buildPhases = (
+				D76EACDF0F3F4AC78689F151 /* Check Pods Manifest.lock */,
 				438C8CA3191998F800056DBB /* Sources */,
 				438C8CA4191998F800056DBB /* Frameworks */,
 				438C8CA5191998F800056DBB /* CopyFiles */,
+				49840306372F419E9A06D612 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +224,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 438C8CCD191998F900056DBB /* Build configuration list for PBXNativeTarget "CBViewSharingTests" */;
 			buildPhases = (
+				1ED67098788844BDAD7CEC62 /* Check Pods Manifest.lock */,
 				438C8CB3191998F900056DBB /* Sources */,
 				438C8CB4191998F900056DBB /* Frameworks */,
 				438C8CB5191998F900056DBB /* Resources */,
+				65418A99B38E4D7C8A27A6D4 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -219,12 +278,81 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1ED67098788844BDAD7CEC62 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		49840306372F419E9A06D612 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-CBViewSharing-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65418A99B38E4D7C8A27A6D4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-CBViewSharingTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D76EACDF0F3F4AC78689F151 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		438C8CA3191998F800056DBB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				438C8CB2191998F800056DBB /* CBViewSharing.m in Sources */,
+				438C8CE41919994B00056DBB /* Socket.m in Sources */,
+				438C8CDE1919994B00056DBB /* CBServer.m in Sources */,
+				438C8CE81919994B00056DBB /* CBViewSharingSession.m in Sources */,
+				438C8CE01919994B00056DBB /* UIView+ImageRepresentation.m in Sources */,
+				438C8CE21919994B00056DBB /* CBViewSharing.m in Sources */,
+				438C8CE61919994B00056DBB /* CBScreenCapturer.m in Sources */,
+				438C8CEA1919994B00056DBB /* CBInputReceiver.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,7 +360,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				438C8CE91919994B00056DBB /* CBViewSharingSession.m in Sources */,
+				438C8CE51919994B00056DBB /* Socket.m in Sources */,
+				438C8CE11919994B00056DBB /* UIView+ImageRepresentation.m in Sources */,
+				438C8CDF1919994B00056DBB /* CBServer.m in Sources */,
 				438C8CC7191998F900056DBB /* CBViewSharingTests.m in Sources */,
+				438C8CE31919994B00056DBB /* CBViewSharing.m in Sources */,
+				438C8CE71919994B00056DBB /* CBScreenCapturer.m in Sources */,
+				438C8CEB1919994B00056DBB /* CBInputReceiver.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +465,7 @@
 		};
 		438C8CCB191998F900056DBB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35A5B8712EE3400CA7565BB8 /* Pods-CBViewSharing.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/CBViewSharing.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -342,6 +478,7 @@
 		};
 		438C8CCC191998F900056DBB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35A5B8712EE3400CA7565BB8 /* Pods-CBViewSharing.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/CBViewSharing.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -354,6 +491,7 @@
 		};
 		438C8CCE191998F900056DBB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07FA1E834609437A8A55F9B0 /* Pods-CBViewSharingTests.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -375,6 +513,7 @@
 		};
 		438C8CCF191998F900056DBB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07FA1E834609437A8A55F9B0 /* Pods-CBViewSharingTests.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -409,6 +548,7 @@
 				438C8CCC191998F900056DBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		438C8CCD191998F900056DBB /* Build configuration list for PBXNativeTarget "CBViewSharingTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +557,7 @@
 				438C8CCF191998F900056DBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
