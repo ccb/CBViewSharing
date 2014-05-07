@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4336D8901919B1AF00814F7B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4336D88F1919B1AF00814F7B /* SystemConfiguration.framework */; };
+		4336D8921919B1B700814F7B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4336D8911919B1B700814F7B /* MobileCoreServices.framework */; };
 		435D2A8B19199C4E00D2C331 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 435D2A8A19199C4E00D2C331 /* UIKit.framework */; };
 		438C8CAB191998F800056DBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 438C8CAA191998F800056DBB /* Foundation.framework */; };
 		438C8CB9191998F900056DBB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 438C8CB8191998F900056DBB /* XCTest.framework */; };
@@ -60,6 +62,8 @@
 		293F63A2482F404686BCF95D /* libPods-CBViewSharing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CBViewSharing.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		35A5B8712EE3400CA7565BB8 /* Pods-CBViewSharing.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CBViewSharing.xcconfig"; path = "Pods/Pods-CBViewSharing.xcconfig"; sourceTree = "<group>"; };
 		3D8A7856682046438F8A4D01 /* libPods-CBViewSharingTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CBViewSharingTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4336D88F1919B1AF00814F7B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4336D8911919B1B700814F7B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		435D2A8A19199C4E00D2C331 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		438C8CA7191998F800056DBB /* libCBViewSharing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCBViewSharing.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		438C8CAA191998F800056DBB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -93,6 +97,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4336D8921919B1B700814F7B /* MobileCoreServices.framework in Frameworks */,
+				4336D8901919B1AF00814F7B /* SystemConfiguration.framework in Frameworks */,
 				435D2A8B19199C4E00D2C331 /* UIKit.framework in Frameworks */,
 				438C8CAB191998F800056DBB /* Foundation.framework in Frameworks */,
 				8667E0AE2BAC409BA94E2BBA /* libPods-CBViewSharing.a in Frameworks */,
@@ -138,6 +144,8 @@
 		438C8CA9191998F800056DBB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4336D8911919B1B700814F7B /* MobileCoreServices.framework */,
+				4336D88F1919B1AF00814F7B /* SystemConfiguration.framework */,
 				435D2A8A19199C4E00D2C331 /* UIKit.framework */,
 				438C8CAA191998F800056DBB /* Foundation.framework */,
 				438C8CB8191998F900056DBB /* XCTest.framework */,
