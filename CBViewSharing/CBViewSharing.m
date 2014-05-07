@@ -56,7 +56,7 @@
         
         self.server.sessionIdentifier = session.identifier; //(TODO) fix this...
         
-        NSString *invitationURLString = [[self.baseAddress absoluteString] stringByAppendingFormat:@"/session/%@/invitation", session.identifier];
+        NSString *invitationURLString = [[self.baseAddress absoluteString] stringByAppendingFormat:@"/invitation?sessionIdentifier=%@", session.identifier];
     
         completion(session, invitationURLString, nil);
         
