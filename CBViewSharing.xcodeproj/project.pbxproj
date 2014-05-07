@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4336D8901919B1AF00814F7B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4336D88F1919B1AF00814F7B /* SystemConfiguration.framework */; };
 		4336D8921919B1B700814F7B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4336D8911919B1B700814F7B /* MobileCoreServices.framework */; };
+		4336D8951919B56A00814F7B /* CBSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 4336D8941919B56A00814F7B /* CBSocket.m */; };
 		435D2A8B19199C4E00D2C331 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 435D2A8A19199C4E00D2C331 /* UIKit.framework */; };
 		438C8CAB191998F800056DBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 438C8CAA191998F800056DBB /* Foundation.framework */; };
 		438C8CB9191998F900056DBB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 438C8CB8191998F900056DBB /* XCTest.framework */; };
@@ -23,8 +24,6 @@
 		438C8CE11919994B00056DBB /* UIView+ImageRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 438C8CD71919994B00056DBB /* UIView+ImageRepresentation.m */; };
 		438C8CE21919994B00056DBB /* CBViewSharing.m in Sources */ = {isa = PBXBuildFile; fileRef = 438C8CD81919994B00056DBB /* CBViewSharing.m */; };
 		438C8CE31919994B00056DBB /* CBViewSharing.m in Sources */ = {isa = PBXBuildFile; fileRef = 438C8CD81919994B00056DBB /* CBViewSharing.m */; };
-		438C8CE41919994B00056DBB /* Socket.m in Sources */ = {isa = PBXBuildFile; fileRef = 438C8CDA1919994B00056DBB /* Socket.m */; };
-		438C8CE51919994B00056DBB /* Socket.m in Sources */ = {isa = PBXBuildFile; fileRef = 438C8CDA1919994B00056DBB /* Socket.m */; };
 		438C8CE61919994B00056DBB /* CBScreenCapturer.m in Sources */ = {isa = PBXBuildFile; fileRef = 438C8CDB1919994B00056DBB /* CBScreenCapturer.m */; };
 		438C8CE71919994B00056DBB /* CBScreenCapturer.m in Sources */ = {isa = PBXBuildFile; fileRef = 438C8CDB1919994B00056DBB /* CBScreenCapturer.m */; };
 		438C8CE81919994B00056DBB /* CBViewSharingSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 438C8CDC1919994B00056DBB /* CBViewSharingSession.m */; };
@@ -64,6 +63,8 @@
 		3D8A7856682046438F8A4D01 /* libPods-CBViewSharingTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CBViewSharingTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4336D88F1919B1AF00814F7B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		4336D8911919B1B700814F7B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		4336D8931919B56A00814F7B /* CBSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBSocket.h; sourceTree = "<group>"; };
+		4336D8941919B56A00814F7B /* CBSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBSocket.m; sourceTree = "<group>"; };
 		435D2A8A19199C4E00D2C331 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		438C8CA7191998F800056DBB /* libCBViewSharing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCBViewSharing.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		438C8CAA191998F800056DBB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -83,8 +84,6 @@
 		438C8CD61919994B00056DBB /* CBViewSharingSession_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBViewSharingSession_Private.h; sourceTree = "<group>"; };
 		438C8CD71919994B00056DBB /* UIView+ImageRepresentation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ImageRepresentation.m"; sourceTree = "<group>"; };
 		438C8CD81919994B00056DBB /* CBViewSharing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBViewSharing.m; sourceTree = "<group>"; };
-		438C8CD91919994B00056DBB /* Socket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Socket.h; sourceTree = "<group>"; };
-		438C8CDA1919994B00056DBB /* Socket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Socket.m; sourceTree = "<group>"; };
 		438C8CDB1919994B00056DBB /* CBScreenCapturer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBScreenCapturer.m; sourceTree = "<group>"; };
 		438C8CDC1919994B00056DBB /* CBViewSharingSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBViewSharingSession.m; sourceTree = "<group>"; };
 		438C8CDD1919994B00056DBB /* CBInputReceiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBInputReceiver.m; sourceTree = "<group>"; };
@@ -159,6 +158,8 @@
 		438C8CAC191998F800056DBB /* CBViewSharing */ = {
 			isa = PBXGroup;
 			children = (
+				4336D8931919B56A00814F7B /* CBSocket.h */,
+				4336D8941919B56A00814F7B /* CBSocket.m */,
 				438C8CED19199A0000056DBB /* CBDefaults.h */,
 				438C8CEC191999D300056DBB /* UIView+ImageRepresentation.h */,
 				438C8CD01919994B00056DBB /* CBInputReceiver.h */,
@@ -170,8 +171,6 @@
 				438C8CD61919994B00056DBB /* CBViewSharingSession_Private.h */,
 				438C8CD71919994B00056DBB /* UIView+ImageRepresentation.m */,
 				438C8CD81919994B00056DBB /* CBViewSharing.m */,
-				438C8CD91919994B00056DBB /* Socket.h */,
-				438C8CDA1919994B00056DBB /* Socket.m */,
 				438C8CDB1919994B00056DBB /* CBScreenCapturer.m */,
 				438C8CDC1919994B00056DBB /* CBViewSharingSession.m */,
 				438C8CDD1919994B00056DBB /* CBInputReceiver.m */,
@@ -354,10 +353,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				438C8CE41919994B00056DBB /* Socket.m in Sources */,
 				438C8CDE1919994B00056DBB /* CBServer.m in Sources */,
 				438C8CE81919994B00056DBB /* CBViewSharingSession.m in Sources */,
 				438C8CE01919994B00056DBB /* UIView+ImageRepresentation.m in Sources */,
+				4336D8951919B56A00814F7B /* CBSocket.m in Sources */,
 				438C8CE21919994B00056DBB /* CBViewSharing.m in Sources */,
 				438C8CE61919994B00056DBB /* CBScreenCapturer.m in Sources */,
 				438C8CEA1919994B00056DBB /* CBInputReceiver.m in Sources */,
@@ -369,7 +368,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				438C8CE91919994B00056DBB /* CBViewSharingSession.m in Sources */,
-				438C8CE51919994B00056DBB /* Socket.m in Sources */,
 				438C8CE11919994B00056DBB /* UIView+ImageRepresentation.m in Sources */,
 				438C8CDF1919994B00056DBB /* CBServer.m in Sources */,
 				438C8CC7191998F900056DBB /* CBViewSharingTests.m in Sources */,
